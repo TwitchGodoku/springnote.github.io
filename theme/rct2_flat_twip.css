@@ -1,0 +1,20 @@
+/* 웹 폰트 불러오기 */
+@import url(https://use.fontawesome.com/releases/v5.0.9/css/all.css);
+
+/* CSS 초기화 및 최적화 */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+	body{width:100%;margin:0px auto;overflow:hidden;-webkit-font-smoothing: antialiased;}
+	div, span{margin:0!important;}
+	
+div#alertbox{background:#333;height:initial!important;text-align:left;border-bottom:1px solid #000;height: 26px!important;overflow:hidden;}
+	div#text-wrap {width:100%}
+		div#text-wrap:before {height:27px;position:absolute;font-family: FontAwesome;top:-1px;left:0;background: #6441A4;content: "\f1e8";font-size: 11pt;color:white!important;letter-spacing:-.5px;padding: 4px 9px;text-shadow:1px 1px 1px rgba(0,0,0,.7)!important;margin-right:3px;z-index:9999;}
+		div#text-wrap div#alert-text{position:relative;left: 34px;height: 27px;text-align:left!important;padding:0!important;overflow:hidden;}
+			div#alert-text h1, h2{display:inline-flex;top: -1px;height: 24px;font-family:'NanumGothic'!important;font-size:10pt!important;text-shadow:none!important;text-align:left!important;letter-spacing:-0.5px;vertical-align: middle;padding: 3px 4px;}
+				div#alert-text h1{position:relative;top: 0;background:#333;z-index:2;}
+					div#alert-text h1 span#nickname span,div#alert-text h1 span#months span,div#alert-text h1 span#amount span{color: #d0b6ff!important;}
+					div#alert-text h1 span#months,div#alert-text h1 span#amount{margin-left:4px!important;}
+				div#alert-text h2{top: 1px;font-weight:normal!important;width: max-content;position:absolute;padding: 3px 0px;animation:scroll-left 15s linear 1.5s infinite;}
+				div#alert-text h2 img{vertical-align: middle;}
+
+@keyframes scroll-left {0%{transform:translateX(0%);}15%{transform:translateX(0%);}100%{transform:translateX(-160%);}}

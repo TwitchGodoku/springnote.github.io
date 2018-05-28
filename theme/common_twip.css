@@ -1,0 +1,28 @@
+/* CSS 초기화 및 최적화 */
+*, *:before, *:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-shadow:none !important;}
+	body{width:100%;background-color:rgba(0, 0, 0, 0); margin:0px auto; overflow:hidden;}
+	div, span{margin:0!important;}
+	
+/* 폰트 초기화 */
+body,div,h1,h2,h3,h4,pre{font-family:'NanumGothic'!important;line-height:1.2;}
+
+/* 알림 박스 메인 디자인 */
+#alertbox{height:initial!important;background-color:rgba(0,0,0,.5);}
+    #alertbox:after{display:block;width:100%;height:3px;background:rgba(255,255,255,.8);content:"";}
+	div#image-wrap{display:none!important;}
+	div#text-wrap{width:100%;}
+	
+div#alert-text {width:95%;height:100%;margin:0 auto!important;padding:0!important;white-space:nowrap;overflow:hidden;}
+
+div#alert-text h1, div#alert-text h2{display:block;width:100%;font-size:13px!important;vertical-align:middle;margin:5px 0!important;padding:0;}
+	div#alert-text h2{width:100%;font-size:11px!important;text-align:left;animation:scroll-left 15s linear 1.5s infinite;margin:0 auto!important;margin-bottom:5px!important;}
+		div#alert-text h2 img{vertical-align:sub;}
+		
+	div#alert-text h1 span#nickname span,div#alert-text h1 span#months span,div#alert-text h1 span#amount span{color:#ffe700!important;}
+
+@keyframes scroll-left {
+0%{transform:translateX(0%);}
+10%{transform:translateX(0%);}
+90%{transform:translateX(-280%);}
+100%{transform:translateX(-280%);}
+}

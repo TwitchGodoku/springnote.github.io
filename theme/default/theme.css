@@ -67,23 +67,19 @@ img.dccon					{	max-height:100px; }
 
 
 /* 폰트 설정 */
-html								{	font-family:'cwtexyen', 'Jeju Gothic', serif;
-											font-size:20px; color: white;
-											text-shadow:
-						-1px -1px 1px black, -1px   0 1px black,
-						-1px  1px 1px black,    0 1px 1px black,
- 						 1px  1px 1px black,  1px   0 1px black,
-						 1px -1px 1px black,   0 -1px 1px black,
-    
-						 -1px -1px 3px grey, -1px   0 3px grey,
-						 -1px  1px 3px grey,    0 1px 3px grey,
-						  1px  1px 3px grey,  1px   0 3px grey,
-						  1px -1px 3px grey,   0 -1px 3px grey; }
-.chat_nickname_box	{	font-size:0.8em; }
+html								{
+											font-family: dotum;
+											font-size: 10px;
+											color: black;
+											}
+.chat_nickname_box	{}
+	.chat_nickname_box:empty:before {content: "v 0.3.0";}
 
-
-.chat_outer_box			{	position:relative; z-index:0; overflow:hidden;
-											margin-top:8px; border:1px solid grey; padding:4px; }
+.chat_outer_box			{
+											position:relative;
+											z-index:0;
+											overflow:hidden;
+											}
 .chat_inner_box,	/* SOON DEPRECATED */
 .chat_upper_box			{	margin-bottom:3px; }
 											
@@ -91,11 +87,14 @@ html								{	font-family:'cwtexyen', 'Jeju Gothic', serif;
 .chat_badge_box 		{	display:inline-block; }
 .chat_badge_box			{ float:right; }
 .chat_outer_box .chat_msg_box,
-.chat_lower_box			{ clear:right; }
+.chat_lower_box			{clear:right;}
 
-.chat_msg_box							{	white-space:pre-line; word-break:break-word;
-														max-height:100px; padding:0 0 5px 0; }
-.chat_msg_box.image_only	{	text-align:center; }
+.chat_msg_box							{
+														white-space:pre-line;
+														word-break:break-word;
+														padding:0 0 5px 0;
+														}
+.chat_msg_box.image_only	{text-align:center;}
 
 
 
@@ -181,3 +180,6 @@ html								{	font-family:'cwtexyen', 'Jeju Gothic', serif;
 {
 	text-align:center;
 }
+    	/* 디시콘 가운데 정렬 */
+    	.chat_lower_box img{display: inline-block;position: relative;margin:0 auto;}
+    		.chat_lower_box img:only-child{display: block;}

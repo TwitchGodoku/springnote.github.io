@@ -1,0 +1,27 @@
+/* CSS 초기화 및 최적화 */
+*, *:before, *:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-shadow:none !important;}
+body{width:100%;background-color:rgba(0, 0, 0, 0); margin:0px auto; overflow:hidden;}
+div, span{margin:0!important;}
+
+/* 폰트 초기화 */
+body,div,h1,h2,h3,h4,pre{font-family:Gulim!important;line-height:1.2;}
+
+/* 알림 박스 메인 디자인 */
+#alertbox{height:initial!important;border:1px solid;border-color:#b7c3c3 #5b7373 #5b7373 #b7c3c3;background-color:#839797;}
+	#alertbox:before {display:block;border-color:#5b7373 #b7c3c3 #b7c3c3 #5b7373;background:#2f4343;font-size:9pt;color:#fff;content:"　";text-align:center;}
+	
+/* 알림 박스 세부 디자인 */
+#alertbox #wrap{display:block!important;}
+	#alertbox #wrap #image-wrap {display:none!important;}
+	#alertbox #wrap #text-wrap{animation:scroll-left 13s linear 1.5s infinite;}
+		#alertbox #wrap #text-wrap #alert-text{padding:10px!important;}
+
+	/* 헤더 메시지 (후원금액, 구독, 팔로우 등) */
+	#alertbox #wrap #text-wrap #alert-text h1 {margin-bottom:3px;]
+	
+
+@keyframes scroll-left {
+0% {transform:translateX(0%);}
+20%{transform:translateX(0%)}
+100% {transform:translateX(-250%);}
+}

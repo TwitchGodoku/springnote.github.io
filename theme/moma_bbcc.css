@@ -1,0 +1,55 @@
+/* CSS 초기화 및 최적화 */
+*,*:before,*:after{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+	body{width:100%;margin: 0px auto;overflow: hidden;}
+	div, span{margin: 0!important;}
+	
+/* 채팅창 디자인 설정 */
+	/* 채팅 영역 전체 */
+	div[class*=chat_outer]{margin-bottom: 8px!important;overflow: inherit!important;}
+		div[class*=chat_outer]:last-child{}
+		
+		/* 채팅 박스 공통 설정 */
+		div[class*="chat_upper"], div[class*="chat_lower"] {display: inline-block!important;font-family:'NanumGothic';font-size:12px!important;font-weight: bold;margin-right: 10px!important;letter-spacing: -.5px;vertical-align: top;box-shadow: 3px 3px 6px #222;}
+			/* 채팅 박스 상단 */
+			div[class*="chat_upper"]{max-width: 50px;max-height: 50px;background: #fff;text-align: center;overflow: hidden;}
+				/* 닉네임 영역 */
+				div[class*="chat_upper"] .chat_nickname_box {position: sticky;width: 100%;top: 53px;vertical-align: unset;font-size: 8pt;background: rgba(0,0,0,.6);color: #fff!important;padding:3px 0;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}			
+				/* 프로필 */
+					div.chat_outer_box div[class*="chat_upper"]{display: inline-block;content:"";width: 100%;height: 70px;background: #fefefe url(http://drive.google.com/uc?export=view&id=1AIpi8OzYCknzHX8TLBLKahngx-bnxRoo) no-repeat left top;background-size: 100%;}
+						div.chat_outer_box[class*=user_a] div[class*="chat_upper"], div.chat_outer_box[class*=user_A] div[class*="chat_upper"], div.chat_outer_box[class*=user_1] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1u7kx3CJdeAB3wfYYMjrvDIU7QMaKDWZY)}
+						div.chat_outer_box[class*=user_b] div[class*="chat_upper"], div.chat_outer_box[class*=user_B] div[class*="chat_upper"], div.chat_outer_box[class*=user_2] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1qvFjibQ1XegVfLhWk6TF3fmXGaHgdqBB)}
+						div.chat_outer_box[class*=user_c] div[class*="chat_upper"], div.chat_outer_box[class*=user_C] div[class*="chat_upper"], div.chat_outer_box[class*=user_3] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=17PZ6MC_BBtxCBDlIZkR7dgZamlNTO3Hb)}
+						div.chat_outer_box[class*=user_d] div[class*="chat_upper"], div.chat_outer_box[class*=user_D] div[class*="chat_upper"], div.chat_outer_box[class*=user_4] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1M_Kncmy7-MJvkDraV1JJQlPrXYKCVZFy)}
+						div.chat_outer_box[class*=user_e] div[class*="chat_upper"], div.chat_outer_box[class*=user_E] div[class*="chat_upper"], div.chat_outer_box[class*=user_5] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1JotCRFsHZTtFoUJOcQeDPUgFQLSXH-y8)}
+						div.chat_outer_box[class*=user_f] div[class*="chat_upper"], div.chat_outer_box[class*=user_F] div[class*="chat_upper"], div.chat_outer_box[class*=user_6] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1eM_9p6az0VvfJsiz10P60ACXII6a-5Z0)}
+						div.chat_outer_box[class*=user_g] div[class*="chat_upper"], div.chat_outer_box[class*=user_G] div[class*="chat_upper"], div.chat_outer_box[class*=user_7] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1mcDhFyrVORVT0Xm3gZ-R_LJ-QwFL3ajq)}
+						div.chat_outer_box[class*=user_h] div[class*="chat_upper"], div.chat_outer_box[class*=user_H] div[class*="chat_upper"], div.chat_outer_box[class*=user_8] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1RBRK-HswpkSvXhuQxTGbCQ4W8-9YjurL)}
+						div.chat_outer_box[class*=user_i] div[class*="chat_upper"], div.chat_outer_box[class*=user_I] div[class*="chat_upper"], div.chat_outer_box[class*=user_9] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1xssW89Lt9bIDorKZfrAksgS31dzWK16K)}
+						div.chat_outer_box[class*=user_j] div[class*="chat_upper"], div.chat_outer_box[class*=user_J] div[class*="chat_upper"], div.chat_outer_box[class*=user_0] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1v1ep6vYzXIBo-dAn3qDf4sM4Ymaraa_A)}
+						div.chat_outer_box[class*=user_k] div[class*="chat_upper"], div.chat_outer_box[class*=user_K] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1OJi_NL_HyqLISKUntzNjdVMAXrHIosnb)}
+						div.chat_outer_box[class*=user_l] div[class*="chat_upper"], div.chat_outer_box[class*=user_L] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1buZtq5CrjRIwWkYvIyLg3OqHnu0b4zLY)}
+						div.chat_outer_box[class*=user_m] div[class*="chat_upper"], div.chat_outer_box[class*=user_M] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1JhNBm1sWuiXZn5QI-eRovUhtgGBSBTru)}
+						div.chat_outer_box[class*=user_n] div[class*="chat_upper"], div.chat_outer_box[class*=user_N] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1z7h3lms39LK1TefbdiaD-TloW88mJneX)}
+						div.chat_outer_box[class*=user_o] div[class*="chat_upper"], div.chat_outer_box[class*=user_O] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1Ymlu0dLTDVxh6p0g32OLi2UhMRVprjZk)}
+						div.chat_outer_box[class*=user_p] div[class*="chat_upper"], div.chat_outer_box[class*=user_P] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1E3McK_t9MWOLhue8C-YVD1ie-1ZgwyI9)}
+						div.chat_outer_box[class*=user_q] div[class*="chat_upper"], div.chat_outer_box[class*=user_Q] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1bD9T7KpkiIN7DWp9gQP7OHsI6zEdypZU)}
+						div.chat_outer_box[class*=user_r] div[class*="chat_upper"], div.chat_outer_box[class*=user_R] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1Py-swEIdH5f3DzOl_Se331MptnwprBb7)}
+						div.chat_outer_box[class*=user_s] div[class*="chat_upper"], div.chat_outer_box[class*=user_S] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1gC30CbaYR68xEx41ykf3gIR9OkFvCyV7)}
+						div.chat_outer_box[class*=user_t] div[class*="chat_upper"], div.chat_outer_box[class*=user_T] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=10fPu1P2PUDuQQwYVwTWv8R2zXGxiqczx)}
+						div.chat_outer_box[class*=user_u] div[class*="chat_upper"], div.chat_outer_box[class*=user_U] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=17EqEW_OOxKnJ9rKuMK-6UU_ponRob92T)}
+						div.chat_outer_box[class*=user_v] div[class*="chat_upper"], div.chat_outer_box[class*=user_V] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1Qf6PBzr3lcA7WcYd7fybiG3G2g5nZJoC)}
+						div.chat_outer_box[class*=user_w] div[class*="chat_upper"], div.chat_outer_box[class*=user_W] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1tzexJ_AQUaug0jp1lhIOJrszRvWgL_5G)}
+						div.chat_outer_box[class*=user_x] div[class*="chat_upper"], div.chat_outer_box[class*=user_X] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1Ur48nMQQiq6jYkYEKCh95KfDXVxzOwe-)}
+						div.chat_outer_box[class*=user_y] div[class*="chat_upper"], div.chat_outer_box[class*=user_Y] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1NCEwTCyKtWPgbCn5ziK-F7j9xZFWtPcE)}
+						div.chat_outer_box[class*=user_z] div[class*="chat_upper"], div.chat_outer_box[class*=user_Z] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1OKRrnlY0MGwquuOV42F76-yj-uqSuUqy)}
+						/* 스페셜 프로필 */
+						div.chat_outer_box[class*=user_byeolu] div[class*="chat_upper"]{background-image:url(http://drive.google.com/uc?export=view&id=1AIpi8OzYCknzHX8TLBLKahngx-bnxRoo)}
+						
+					/* 이용자 아이콘 & 구독콘 */
+					div[class*="chat_upper"] .chat_badge_box {position: absolute;top: 0;left: 0;overflow:hidden;}
+						div[class*="chat_upper"] .chat_badge_box img {width: 12px;}
+					
+			/* 채팅 메시지 영역 */
+			div[class*="chat_lower"] .chat_msg_box{display: inline-block;max-width: 200px;position: relative;padding: 6px;background: #fff;}
+				div[class*="chat_lower"] .chat_msg_box img{vertical-align: middle;}
+					div[class*="chat_lower"] .chat_msg_box:after{content: '';position: absolute;left: -5px;top: 7px;width: 0;height: 0;border: 5px solid transparent;border-right-color: #ffffff;border-left: 0;margin: 0 0 0 0;}

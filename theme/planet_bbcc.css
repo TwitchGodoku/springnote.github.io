@@ -1,0 +1,19 @@
+/* CSS 초기화 및 최적화 */
+*,*:before,*:after{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+	body{width:100%;margin: 0px auto;overflow: hidden;}
+	div, span{margin: 0!important;}
+
+/* 채팅창 디자인 설정 */
+.chat_upper_box, .chat_lower_box{font-family:'NanumGothic'!important;font-size:11px!important;font-weight: bold;text-shadow: none!important;}
+	/* 방송 플랫폼 아이콘 */
+	span[class*="chat_platform"]{display: none!important;}
+	
+    /* 닉네임 & 방송 플랫폼 구분 */
+	.chat_upper_box{display: inline-block!important;max-height: 20px;background: #2b50a3;!importantcolor: #fff!important;color: #fff;padding: 3px 7px 3px 5px;border-radius: 5px 5px 0 0px;}
+		.chat_upper_box .chat_nickname_box{vertical-align: middle;color: #fff!important;}
+		.chat_upper_box .chat_badge_box {display: inline-block;width: auto;float: left;height: 14px;margin-right: 4px!important;}
+		  .chat_upper_box .chat_badge_box img{display: inline-block;height: 100%;}		
+
+    /* 메시지 */
+    .chat_lower_box{display: table;max-width: 100%;width: 100%;background: #e6e6e6!important;color: #000!important;padding: 5px 8px 0;margin-bottom: 8px!important;border-radius: 0 5px 5px 5px!important;z-index: 9999;}
+		.chat_upper_box[style*="display: none"] + .chat_lower_box{border-top-left-radius: 5px!important;}
