@@ -18,7 +18,7 @@ header{padding:0;}
 	/* 상단 네비게이션 */
 	header #header-bar{}
 		header #header-bar .row{background:#fff;height:48px;font-size:13px;padding:5px 0px;border-top:4px solid #353535;border-left:1px solid #ebeae8;}	
-	header #header-bar .dropdown{height:20px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) 0 -71px no-repeat;color:transparent;font-size:0;vertical-align:middle;}
+	header #header-bar .dropdown{height:20px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) 0 -71px no-repeat;color:transparent;font-size:0;vertical-align:middle;}
 		header #header-bar div[id*=left] .dropdown:nth-child(1){width:115px;}
 			header #header-bar div[id*=left] .dropdown:nth-child(1):focus, header #header-bar div[id*=left] .dropdown:nth-child(1):hover, header #header-bar div[id*=left] .dropdown:nth-child(1):focus, header #header-bar div[id*=left] .dropdown.open:nth-child(1){background-position:-170px -71px;}
 		header #header-bar div[id*=left] .dropdown:nth-child(2){width:75px;background-position-y:-93px;}
@@ -53,7 +53,7 @@ header{padding:0;}
 /* 트게더 좌측 메뉴 */
 #main-menu{width:180px;}
 	#main .menu-wrapper{background:#5a5a5a;}
-		#main .menu-wrapper .header{height:45px;background:#353535 url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -320px -60px no-repeat;color:transparent!important;font-size:0;padding:15px;}
+		#main .menu-wrapper .header{height:45px;background:#353535 url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -320px -60px no-repeat;color:transparent!important;font-size:0;padding:15px;}
 			#main .menu-wrapper:nth-child(2) .header{background-position:-500px -60px;}
 			#main .menu-wrapper:nth-child(3) .header{background-position:-320px -90px;}
 			#main .menu-wrapper>.header > a{}
@@ -84,13 +84,13 @@ header{padding:0;}
 				div#board-info h1 a[href*="twitch.tv"]{font-size:12px;margin:8px 0;}
 					div#board-info h1 a[href*="twitch.tv"]:after{width:0;height:0;}
 				div#board-info h1 a:nth-child(1):after{display:inline-block;font-size:13px;font-weight:bold;color:#929292;content:attr(href);margin:0 4px;}
-			div#board-info h1 > span{height:13px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -195px -390px no-repeat;color:#333!important;text-align:left;font-size:11px!important;font-weight:bold!important;line-height:inherit!important;padding:0 0 0 80px!important;margin-top:6px;}
+			div#board-info h1 > span{height:13px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -195px -390px no-repeat;color:#333!important;text-align:left;font-size:11px!important;font-weight:bold!important;line-height:inherit!important;padding:0 0 0 80px!important;margin-top:6px;}
 				div#board-info h1 > span:after{display:inline-block;background:#ddd;width:1px;height:11px;content:"";vertical-align:middle;margin-left:5px;}
 				 div#board-info h1 > span[id*="viewer"]{background-position:-195px -406px;padding-left:90px!important;}
 				 div#board-info h1 > span[id*="viewer"] i{display:none;}
 					div#board-info h1 >  span[id*="viewer"]:after{background:none; content:"명";margin-left:0;}
 			div#board-info div[id*="info-bottom"]{position:relative;top:0px;padding:4px 0!important;border-top:1px solid #efefef;margin:0 5px;}
-			 div#board-info div[id*="info-bottom"] a{width:30px;height:30px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) 0 -444px no-repeat;font-size:0!important;padding:0!important;border-right:0!important;margin-right:1px;vertical-align:top;}
+			 div#board-info div[id*="info-bottom"] a{width:30px;height:30px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) 0 -444px no-repeat;font-size:0!important;padding:0!important;border-right:0!important;margin-right:1px;vertical-align:top;}
 			 div#board-info div[id*="info-bottom"] a:active{box-shadow:inset 0 3px 5px rgba(0,0,0,.125);}
 			 div#board-info div[id*="info-bottom"] a:hover, div#board-info div[id*="info-bottom"] a:focus{}
 				div#board-info div[id*="info-bottom"] a   i{font-size:0;}
@@ -154,7 +154,7 @@ header{padding:0;}
 					#article-content-wrapper #article-content{padding:7px;}
 					#article-content-wrapper .vote-area{padding:30px 0 0;}
 						#article-content-wrapper .vote-area:hover{}
-						#article-content-wrapper .vote-area button{width:60px;height:63px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) 0 -265px no-repeat;color:transparent;font-size:9pt;font-weight:bold;border:0;padding:0;outline:0;}
+						#article-content-wrapper .vote-area button{width:60px;height:63px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) 0 -265px no-repeat;color:transparent;font-size:9pt;font-weight:bold;border:0;padding:0;outline:0;}
 							#article-content-wrapper .vote-area button[data-type="up"]{}
 								#article-content-wrapper .vote-area button[data-type="up"]:hover, #article-content-wrapper .vote-area button[data-type="up"]:focus{}
 							#article-content-wrapper .vote-area button[data-type="down"]{background-position-x:-63px;}
@@ -167,7 +167,7 @@ header{padding:0;}
 					
 				/* 게시글 하단 버튼	 */
 				div#article-content-wrapper .footer{background:none;padding:20px 0 5px;}
-					#article-content-wrapper .footer .btn{width:75px;height:32px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) 0 -200px;color:transparent;border:0;}
+					#article-content-wrapper .footer .btn{width:75px;height:32px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) 0 -200px;color:transparent;border:0;}
 					#article-content-wrapper .footer .btn[href*=report]{width:55px;background-position-x:-239px;}
 					#article-content-wrapper .footer .btn[href*=scrap]{width:65px;background-position-x:-297px;}
 					#article-content-wrapper .footer .btn[href*=modify]{width:55px;background-position-x:-366px;}
@@ -188,20 +188,20 @@ header{padding:0;}
 										#article-reply-area #comment-write-form-area input[id*=name]:before { content:'input:'; }
 										#article-reply-area #comment-write-form-area input[id*=Password]:before{}
 								#article-reply-area #comment-write-form-area input[id*=Password]{width:150px;}
-									#article-reply-area #comment-write-button-area button[id*="writeCommentBtn"], #article-reply-area #comment-write-button-area button[id*="btnRereplyCancelBtn"]{width:75px;height:32px;color:transparent;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -484px -200px no-repeat;border:0;}
+									#article-reply-area #comment-write-button-area button[id*="writeCommentBtn"], #article-reply-area #comment-write-button-area button[id*="btnRereplyCancelBtn"]{width:75px;height:32px;color:transparent;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -484px -200px no-repeat;border:0;}
 										#article-reply-area #comment-write-button-area button[id*="btnRereplyCancelBtn"]{background-position-x:-563px;}
 									#article-reply-area #comment-write-form-area button[class*=hide] + button{}
 									#article-reply-area #comment-write-form-area button:hover, #article-reply-area #comment-write-form-area button:focus{outline:0;}
 								#article-reply-area #comment-write-form-area button[id*=Cancel]{background-position-y:-78px;background-position:-563px -200px;margin-bottom:2px;}
 								#article-reply-area #comment-write-form-area textarea.form-control{max-width:90.76%;}
-							#article-reply-area a[id*=NewComment]{width:100px;height:32px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -620px -70px;color:transparent;border:0;margin:0!important;}
+							#article-reply-area a[id*=NewComment]{width:100px;height:32px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -620px -70px;color:transparent;border:0;margin:0!important;}
 				
 					/* 댓글 읽기 */
 					#article-reply-area .header{display:inline-table;padding:0;margin:5px 0;}
-						#article-reply-area .header h5{width:116px;height:32px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) 0 -234px no-repeat;color:transparent;font-size:0;margin:0;}
+						#article-reply-area .header h5{width:116px;height:32px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) 0 -234px no-repeat;color:transparent;font-size:0;margin:0;}
 							#article-reply-area .header h5 span[id*=Count]{position:relative;top:8px;left:-21px;float:right;font-size:11pt;color:#353535;}
-							#article-reply-area .header h5 a[id*=lastc]{display:block;width:20px;height:30px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -110px -135px no-repeat;margin:3px 0 0 116px;}
-					#article-reply-area a[id*=PrevPageBtn]{position:relative;float:right;top:3px;width:124px!important;height:32px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -125px -235px no-repeat;color:transparent;font-size:0;padding:0!important;margin-top:5px;}
+							#article-reply-area .header h5 a[id*=lastc]{display:block;width:20px;height:30px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -110px -135px no-repeat;margin:3px 0 0 116px;}
+					#article-reply-area a[id*=PrevPageBtn]{position:relative;float:right;top:3px;width:124px!important;height:32px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -125px -235px no-repeat;color:transparent;font-size:0;padding:0!important;margin-top:5px;}
 					#article-reply-area #reply-real-area, #article-reply-area #reply-best-area{padding:5px 0 0;}
 						#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{/* margin:5px 10px; */border:0;}
 							#article-reply-area #reply-real-area .reply .reply-header, #article-reply-area #reply-best-area .reply .reply-header{padding:8px;border:1px solid rgba(0,0,0,.05);border-bottom:0;border-radius:5px 5px 0 0;margin:0 0 0 60px;}
@@ -226,12 +226,12 @@ header{padding:0;}
 			/* 게시판 하단	 */
 			div#article-list #article-list-menu{display:block;position:initial;margin:10px 0px;}
 				/* 글쓰기 및 인기글 버튼 */
-				div#article-list #article-list-menu > a{height:32px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) 0 -200px!important;color:transparent!important;border:0;}
+				div#article-list #article-list-menu > a{height:32px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) 0 -200px!important;color:transparent!important;border:0;}
 					div#article-list #article-list-menu > a i{display:none;}
 					div#article-list #article-list-menu > a.btn.best{width:65px;background-position-x:-78px!important;}
 					div#article-list #article-list-menu > a.btn.write{width:90px;background-position-x:-146px!important;margin-right:0;}
 					div#article-list #article-list-menu > a.btn[href*="config"]{width:55px;left:70px;background-position:-569px -233px!important;margin-right:0;}
-					div#article-list #article-list-menu > button[id*="delete"]{width:55px;height:32px;left:130px!important;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -425px -200px!important;font-size:0;margin-right:0;border:0;}
+					div#article-list #article-list-menu > button[id*="delete"]{width:55px;height:32px;left:130px!important;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -425px -200px!important;font-size:0;margin-right:0;border:0;}
 				
 				/* 페이지 이동 */
 				div#article-list .pagination{margin-top:4px;}
@@ -253,8 +253,8 @@ header{padding:0;}
 				
 			/* 하단 푸터 */
 			footer{position:relative;font-size:12px;background:#353535;padding:10px 0;border-top:1px solid rgba(0,0,0,.15);margin-top:10px;}
-				footer .container{max-width:none !important;width:1100px;height:55px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) 0 -330px no-repeat;color:transparent;font-size:0;}
-				footer a{display:inline-block;float:right;width:61px;height:61px;background:url(http://godoku.dothome.co.kr/tgd/images/tgd_img_all.png) -420px -265px no-repeat;opacity:.5;}
+				footer .container{max-width:none !important;width:1100px;height:55px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) 0 -330px no-repeat;color:transparent;font-size:0;}
+				footer a{display:inline-block;float:right;width:61px;height:61px;background:url(https://raw.githubusercontent.com/TwitchGodoku/springnote.github.io/master/tgd_skin/all/tgd_img_all.png) -420px -265px no-repeat;opacity:.5;}
 				footer a[href*="mobile"]{background-position:-480px -265px;}
 				footer a[href*="support"]{background-position:-700px -265px;}
 				footer a[href*="adcontact"]{background-position:-420px -265px;}
@@ -262,7 +262,3 @@ header{padding:0;}
 				footer a[href*="privacy"]{background-position:-591px -265px;}
 				footer a[href*="policy"]{background-position:-647px -265px;}
 				footer a:hover, footer a:focus{opacity:1;}
-			
-/* 디버그용 임시 스타일 */
-#article-reply-area #comment-write-form-area{}
-#board-info h1 {border-bottom:0;}
