@@ -168,16 +168,20 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 					/* 게시글 쓰기 */
 					.frame h3{display:none;}
 					form#articleWriteForm {}
-						form#articleWriteForm:before{display:block;font:normal bold 24px/1 'NanumSquare';content: "새로운 글쓰기";color:#444;margin: 5px 3px 0;}
-						form#articleWriteForm .row.mt-2 {width: 100%;margin: 10px 5px 0;}
+						form#articleWriteForm:before{display:block;font:normal bold 24px/1 'NanumSquare';content: "새로운 글쓰기";color:#444;margin: 5px 3px 10px;}
+						form#articleWriteForm .row.mt-2 {width: 100%;margin: 0 5px;}
 						form#articleWriteForm .row.mt-2 div[class*="col-xs"] select, form#articleWriteForm .row.mt-2 div[class*="col-xs"] input{display: inline-block!important;border: 1px solid rgba(0,0,0,.08);box-shadow: inset 0 1px 1px rgba(0,0,0,.125);}
 							form#articleWriteForm .row.mt-2 div[class*="col-xs"] select:focus, form#articleWriteForm .row.mt-2 div[class*="col-xs"] input:focus{outline:0;}
 							form#articleWriteForm .col-xs-2.left {width: calc(100% - 70%);padding: 0;margin-bottom: 5px;}
-								form#articleWriteForm .col-xs-2.left:before, form#articleWriteForm .col-xs-10.right:before{display: inline;width: 200px;height: 20px;font-size: 11px;content: "분류";margin-right: 5px;}
+								form#articleWriteForm .col-xs-2.left:before, form#articleWriteForm .col-xs-6:before, form#articleWriteForm .col-xs-10.right:before{display: inline-block;font-size: 11px;content: "카테고리";margin-right: 5px;}
 							form#articleWriteForm .row.mt-2 div[class*="col-xs"] select{width: calc(100% - 100px);padding: 7px!important;}
+						form#articleWriteForm .col-xs-6{width: 30%;padding: 0;margin-bottom: 5px;}
+							form#articleWriteForm .col-xs-6:nth-child(1):before{content: "닉네임";}
+							form#articleWriteForm .col-xs-6:nth-child(2):before{content: "비밀번호";}							
 						form#articleWriteForm .col-xs-10{padding: 0;}
 							form#articleWriteForm .col-xs-10.right:before{content:"제목";}
-								form#articleWriteForm .row.mt-2 div[class*="col-xs"] input{width: calc(100% - 10%);}
+								form#articleWriteForm .row.mt-2 div[class*="col-xs"] input{width: calc(100% - 20%);}								
+						form#articleWriteForm .mt-2 input[type=checkbox]{position: relative;top: -6px;width: 20px;height: 20px;vertical-align: text-top;}
 					
 					/* 하단 광고 */
 					#article-content-wrapper .vote-area:after{display:none;height:100px;background:url(./tgd_ad.png);content:"";margin-top:30px;}
