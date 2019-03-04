@@ -76,7 +76,7 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 		/* 스트리머 프로필 사진 */
 		div#board-info img{position:relative;width:auto!important;height:100%!important;background:#fbfbfb;border-left:1px solid rgba(0,0,0,.05);border-radius:0;z-index:1;}
 		/* 스트리머 이름 */
-		div#board-info h1{border-bottom:0;}
+		div#board-info h1{}
 			div#board-info h1 a{display:inline-block;font: normal bold 22px/1 'NanumSquare';font-weight:bold;margin: 8px 0 2px 10px;vertical-align:top;}
 				div#board-info h1 a[href*="twitch.tv"]{font-size:12px;margin:8px 0;}
 					div#board-info h1 a[href*="twitch.tv"]:after{width:0;height:0;}
