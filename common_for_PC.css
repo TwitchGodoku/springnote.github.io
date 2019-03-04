@@ -223,7 +223,7 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 							#article-reply-area .header h5 a[id*=lastc]{display:block;width:20px;height:30px;background:url('https://i.imgur.com/6nD03pO.png') -110px -135px no-repeat;margin:3px 0 0 116px;}
 					#article-reply-area a[id*=PrevPageBtn]{position:relative;float:right;top:3px;width:124px!important;height:32px;background:url('https://i.imgur.com/6nD03pO.png') -125px -235px no-repeat;color:transparent;font-size:0;padding:0!important;margin-top:5px;}
 					#article-reply-area #reply-real-area, #article-reply-area #reply-best-area{padding:5px 0 0;}}
-						#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{border:0;}
+						#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply{border:0!important;}
 							#article-reply-area #reply-real-area .reply .reply-header, #article-reply-area #reply-best-area .reply .reply-header{padding:8px;border:1px solid rgba(0,0,0,.05);border-bottom:0;border-radius:5px 5px 0 0;margin:0 0 0 60px;}
 								#article-reply-area #reply-best-area .reply .reply-header img[]{}
 								#article-reply-area #reply-real-area .reply .reply-header img.reply-writer-image, #article-reply-area #reply-best-area .reply img.reply-writer-image{position:absolute;top:-1px;left:4px;width:50px!important;height:50px!important;background:#fff;border: 1px solid #eee;border-radius: 2px;box-shadow: 0 2px 2px rgba(0,0,0,.3);}
