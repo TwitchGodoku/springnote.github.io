@@ -201,18 +201,19 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 							#article-reply-area #comment-write-form-area .form-control{display:inline-block;max-width:100%;max-height:65px;font-size:12px;padding:8px;border:1px solid #ddd;border-radius:0;box-shadow:none;resize:none;}
 							#article-reply-area #comment-write-form-area form{background:#fcfcfc;border:0;padding:10px;margin:0;}
 								#commentWriteInfoForm .left, #commentWriteInfoForm .right{width:inherit;padding:0 10px 0 0;}
-						#comment-write-button-area {display:inline-block;width:75px;}
+						#comment-write-button-area {}
 						#commentWriteInfoForm{margin:0}
 							#article-reply-area #comment-write-form-area input{display:block!important;}
 								#article-reply-area #comment-write-form-area input[id*=name]{width:200px;}
 										#article-reply-area #comment-write-form-area input[id*=name]:before { content:'input:'; }
 										#article-reply-area #comment-write-form-area input[id*=Password]:before{}
 								#article-reply-area #comment-write-form-area input[id*=Password]{width:150px;}
-								#article-reply-area #comment-write-form-area button[type="submit"]{width:75px;height:32px;color:transparent;background:url('https://i.imgur.com/6nD03pO.png') -484px -200px no-repeat;border:0;}
 									#article-reply-area #comment-write-form-area button[class*=hide] + button{}
 									#article-reply-area #comment-write-form-area button:hover, #article-reply-area #comment-write-form-area button:focus{outline:0;}
 								#article-reply-area #comment-write-form-area button[id*=Cancel]{background-position-y:-78px;background-position:-563px -200px;margin-bottom:2px;}
 								#article-reply-area #comment-write-form-area textarea.form-control{max-width:90.76%;}
+							#comment-write-button-area button{width:75px;height:32px;font-size:0!important;background:url('https://i.imgur.com/6nD03pO.png') -484px -200px no-repeat;border:0;}
+								#comment-write-button-area button[id*="Cancel"]{background-position: -563px -200px;border:0;}
 							#article-reply-area a[id*=NewComment]{width:100px;height:32px;background:url('https://i.imgur.com/6nD03pO.png') -620px -70px;color:transparent;border:0;margin:0!important;}
 				
 					/* 댓글 읽기 */
