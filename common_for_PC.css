@@ -131,9 +131,12 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 			div#article-list .article-list-row[class*="notice"], div#article-list .article-list-row[class*="hot"]{background:#f3f3f3;}
 				div#article-list .article-list-row[class*="notice"] .list-header{background-image:none;}
 					div#article-list .article-list-row[class*="notice"] .list-header:before{content:""}
-					div#article-list .article-list-row[class*="notice"] .list-header strong{background:#d45858;color:#fff;padding:4px 6px 5px;vertical-align:top;}
+					div#article-list .article-list-row[class*="notice"] .list-header strong,  div#article-list .article-list-row[class*="hot"] b{background:#d45858;color: #fff!important;padding: 4px 6px 5px!important;vertical-align:top;}
 				div#article-list .article-list-row[class*="notice"] .list-title{font-weight:bold;padding:8px 0px 8px 7px;}
 					div#article-list .article-list-row[class*="notice"] .list-title .a-badge{display:none;}
+			 div#article-list .article-list-row[class*="hot"] b{background: #efc839;}
+			 	div#article-list .article-list-row[class*="hot"] .list-category, div#article-list .article-list-row[class*="hot"] span{display: none;}
+			 	div#article-list .article-list-row[class*="hot"] a{font-weight:bold;}
 			
 			/* 게시글 본문 */
 				/* 게시글 정보 */
