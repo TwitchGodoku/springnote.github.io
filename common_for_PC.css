@@ -30,7 +30,7 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 		header #header-bar .dropdown-menu a{font-size:12px;font-weight:bold;max-height:31px;color:#555;padding:5px 0 5px 5px;border:1px solid rgba(0,0,0,.05);border-top:0;;}	
 			header #header-bar .dropdown-menu a[href*="point"]{border-bottom-color:#e5e5e5;}	
 			header #header-bar .dropdown-menu a:focus, header #header-bar .dropdown-menu a:hover{background:#6846a7;color:#fff;}
-		header #header-bar .dropdown-menu .divider {display:none;}
+		header #header-bar .dropdown-menu .divider{display:none;}
 	header #header-bar a.dropdown-toggle{position:relative;top:-1px;width:100%;height:100%;color:transparent;padding:0!important;vertical-align:bottom;}
 		header #header-bar a.dropdown-toggle img{width:25px!important;height:25px!important;margin:0!important;}
 		header #header-bar a.dropdown-toggle i[class*="clock"]{margin-right:3px;}
@@ -76,7 +76,7 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 		/* 스트리머 프로필 사진 */
 		div#board-info img{position:relative;width:auto!important;height:100%!important;background:#fbfbfb;border-left:1px solid rgba(0,0,0,.05);border-radius:0;z-index:1;}\
 		/* 스트리머 이름 */
-		div#board-info h1 {border-bottom:0}
+		div#board-info h1{border-bottom:0}
 			div#board-info h1 a{display:inline-block;font-size:21px;font-weight:bold;margin:5px 0 5px 10px;vertical-align:top;}
 				div#board-info h1 a[href*="twitch.tv"]{font-size:12px;margin:8px 0;}
 					div#board-info h1 a[href*="twitch.tv"]:after{width:0;height:0;}
@@ -164,12 +164,12 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 					
 					/* 게시글 쓰기 */
 					.frame h3{display:none;}
-					form#articleWriteForm {}
+					form#articleWriteForm{}
 						form#articleWriteForm:before{display:block;font:normal bold 24px/1 'NanumSquare';content:"새로운 글쓰기";color:#444;margin:5px 3px 10px;}
-						form#articleWriteForm .row.mt-2 {width:100%;margin:0 5px;}
+						form#articleWriteForm .row.mt-2{width:100%;margin:0 5px;}
 						form#articleWriteForm .row.mt-2 div[class*="col-xs"] select, form#articleWriteForm .row.mt-2 div[class*="col-xs"] input{display:inline-block!important;border:1px solid rgba(0,0,0,.08);box-shadow:inset 0 1px 1px rgba(0,0,0,.125);}
 							form#articleWriteForm .row.mt-2 div[class*="col-xs"] select:focus, form#articleWriteForm .row.mt-2 div[class*="col-xs"] input:focus{outline:0;}
-							form#articleWriteForm .col-xs-2.left {width:180px;padding:0;margin-bottom:5px;}
+							form#articleWriteForm .col-xs-2.left{width:180px;padding:0;margin-bottom:5px;}
 								form#articleWriteForm .col-xs-2.left:before, form#articleWriteForm .col-xs-6:before, form#articleWriteForm .col-xs-10.right:before{display:inline-block;font-size:11px;content:"카테고리";margin-right:5px;}
 							form#articleWriteForm .row.mt-2 div[class*="col-xs"] select{width:110px;padding:7px!important;}
 						form#articleWriteForm .col-xs-6{width:30%;padding:0;margin-bottom:5px;}
@@ -179,6 +179,11 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 							form#articleWriteForm .col-xs-10.right:before{content:"제목";}
 								form#articleWriteForm .row.mt-2 div[class*="col-xs"] input{width:calc(100% - 20%);}								
 						form#articleWriteForm .mt-2 input[type=checkbox]{position:relative;top:-6px;width:20px;height:20px;vertical-align:text-top;}
+						form#articleWriteForm .mt-2 a[class*=btn-default], form#articleWriteForm button#addPollBtn, form#articleWriteForm button#article-write-button{width: 77px;height: 32px;background: url(https://i.imgur.com/nMjNXNp.png) -562px -200px no-repeat;font-size: 0;border: 0;}
+							form#articleWriteForm button#addPollBtn{width: 95px;background-position: -648px -233px;}
+							form#articleWriteForm button#article-write-button{width: 90px;background-position: -146px -200px;}
+							form#articleWriteForm .mt-2 a[class*=btn-default]:focus, form#articleWriteForm button#addPollBtn:focus, form#articleWriteForm button#article-write-button:focus{outline:none;}
+
 					
 					/* 하단 광고 */
 					#article-content-wrapper .vote-area:after{display:none;height:100px;background:url(./tgd_ad.png);content:"";margin-top:30px;}
@@ -198,11 +203,11 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 							#article-reply-area #comment-write-form-area .form-control{display:inline-block;max-width:100%;max-height:65px;font-size:12px;padding:8px;border:1px solid #ddd;border-radius:0;box-shadow:none;resize:none;}
 							#article-reply-area #comment-write-form-area form{background:#fcfcfc;border:0;padding:10px;margin:0;}
 								#commentWriteInfoForm .left, #commentWriteInfoForm .right{width:inherit;padding:0 10px 0 0;}
-						#comment-write-button-area {}
+						#comment-write-button-area{}
 						#commentWriteInfoForm{margin:0}
 							#article-reply-area #comment-write-form-area input{display:block!important;}
 								#article-reply-area #comment-write-form-area input[id*=name]{width:200px;}
-										#article-reply-area #comment-write-form-area input[id*=name]:before { content:'input:'; }
+										#article-reply-area #comment-write-form-area input[id*=name]:before{ content:'input:'; }
 										#article-reply-area #comment-write-form-area input[id*=Password]:before{}
 								#article-reply-area #comment-write-form-area input[id*=Password]{width:150px;}
 									#article-reply-area #comment-write-form-area button[class*=hide] + button{}
