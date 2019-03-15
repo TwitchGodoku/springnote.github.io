@@ -25,6 +25,7 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 			header #header-bar div[id*=right] .dropdown:nth-child(1):focus, header #header-bar div[id*=right] .dropdown:nth-child(1):hover{background-position: -170px -135px;}
 		header #header-bar div[id*=right] .dropdown:nth-child(2){height:28px;background-position:-110px -135px;background-size: 28px 28px;margin-left: 5px;}
 			header #header-bar div[id*=right] .dropdown:nth-child(2):focus, header #header-bar div[id*=right] .dropdown:nth-child(2):hover, header #header-bar div[id*=right] .dropdown.open:nth-child(2){background-position:-280px -135px;}		
+			header #header-bar div[id*=right] .dropdown:nth-child(2) .badge{background: #886db9!important;padding: 3px 7px!important;margin-right: 3px;}
 		header #header-bar .dropdown-menu{top:30px;background:#ffffff;border:1px solid rgba(0,0,0,.15);border-width:0 1px 2px 1px;border-radius:0;box-shadow:2px 3px 3px rgba(0,0,0,.1);padding:0;}
 			header #header-bar .dropdown-menu:empty:after{display:block;font-size:13px;color:black;content:"로그인을 해주세요!";margin:5px calc(100% / 6);}
 		header #header-bar .dropdown-menu a{font-size:12px;font-weight:bold;max-height:31px;color:#555;padding:5px 0 5px 5px;border:1px solid rgba(0,0,0,.05);border-top:0;;}	
