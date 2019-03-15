@@ -21,9 +21,9 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 			header #header-bar div[id*=left] .dropdown:nth-child(2):focus, header #header-bar div[id*=left] .dropdown:nth-child(2):hover, header #header-bar div[id*=left] .dropdown:nth-child(2):focus, header #header-bar div[id*=left] .dropdown.open:nth-child(2){background-position:-170px -93px;}		
 		header #header-bar div[id*=left] .dropdown:nth-child(3){width:60px;background-position-y:-114px;}
 			header #header-bar div[id*=left] .dropdown:nth-child(3):focus, header #header-bar div[id*=left] .dropdown:nth-child(3):hover, header #header-bar div[id*=left] .dropdown:nth-child(3):focus, header #header-bar div[id*=left] .dropdown.open:nth-child(3){background-position:-170px -114px;}		
-		header #header-bar div[id*=right] .dropdown:nth-child(1){width:60px;background-position:0 -136px;vertical-align:top;}
-			header #header-bar div[id*=right] .dropdown:nth-child(1):focus, header #header-bar div[id*=right] .dropdown:nth-child(1):hover{background-position:-170px -136px;}
-		header #header-bar div[id*=right] .dropdown:nth-child(2){width:55px;height:28px;background-position:-110px -135px;}
+		header #header-bar div[id*=right] .dropdown:nth-child(1){width: 61px;background-position: 0px -135px;vertical-align:top;}
+			header #header-bar div[id*=right] .dropdown:nth-child(1):focus, header #header-bar div[id*=right] .dropdown:nth-child(1):hover{background-position: -170px -135px;}
+		header #header-bar div[id*=right] .dropdown:nth-child(2){height:28px;background-position:-110px -135px;background-size: 28px 28px;margin-left: 5px;}
 			header #header-bar div[id*=right] .dropdown:nth-child(2):focus, header #header-bar div[id*=right] .dropdown:nth-child(2):hover, header #header-bar div[id*=right] .dropdown.open:nth-child(2){background-position:-280px -135px;}		
 		header #header-bar .dropdown-menu{top:30px;background:#ffffff;border:1px solid rgba(0,0,0,.15);border-width:0 1px 2px 1px;border-radius:0;box-shadow:2px 3px 3px rgba(0,0,0,.1);padding:0;}
 			header #header-bar .dropdown-menu:empty:after{display:block;font-size:13px;color:black;content:"로그인을 해주세요!";margin:5px calc(100% / 6);}
@@ -31,13 +31,13 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 			header #header-bar .dropdown-menu a[href*="point"]{border-bottom-color:#e5e5e5;}	
 			header #header-bar .dropdown-menu a:focus, header #header-bar .dropdown-menu a:hover{background:#6846a7;color:#fff;}
 		header #header-bar .dropdown-menu .divider{display:none;}
-	header #header-bar a.dropdown-toggle{position:relative;top:-1px;width:100%;height:100%;color:transparent;padding:0;vertical-align:bottom;}
+	header #header-bar a.dropdown-toggle{position:relative;top: 0px;width:100%;height:100%;color:transparent;padding:0;vertical-align:bottom;}
 		header #header-bar a.dropdown-toggle img{width:25px!important;height:25px!important;margin:0!important;}
 		header #header-bar a.dropdown-toggle i[class*="clock"]{margin-right:3px;}
 	header #header-bar #header-menu-left, header #header-bar #header-top-notice, header #header-bar #header-menu-right{position:relative;}
 		header #header-bar #header-menu-left{width:270px;top:5px;padding:0px 6px;}
 		header #header-bar #header-top-notice{width:600px;top:4px;font-size:1em;padding:3px 5px 3px 5px;height:22px;text-align:left;}
-		header #header-bar #header-menu-right{float:right;width:127px;height:23px;top:5px;padding:0;}
+		header #header-bar #header-menu-right{float:right;width: 150px;height:23px;top:5px;padding:0;}
 	
 	/* 중앙 점검 알림창 */
 	#content-area>.container .row .col-xs-12 .alert{background:#fff;color:#333;font-size:13px;margin-bottom:10px;border:1px solid #ebeae8;border-top:2px solid #ddd;border-width:1px 2px 2px 1px;border-right:2px solid #ebeae8;}
