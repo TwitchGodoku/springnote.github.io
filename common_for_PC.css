@@ -14,7 +14,7 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 	/* 상단 네비게이션 */	
 	header #header-bar{/* margin:0 auto 10px; */}
 		header #header-bar .row{background:#fff;height:48px;font-size:13px;padding:5px 0px;border-top:4px solid #353535;border-left:1px solid #ebeae8;}	
-	header #header-bar .dropdown{height:20px;background:url('https://i.imgur.com/DsLV399.png') 0 -71px no-repeat;color:transparent;font-size:0;vertical-align:middle;}
+	header #header-bar .dropdown{height:20px;background:url('https://i.imgur.com/vEM1XWI.png') 0 -71px no-repeat;color:transparent;font-size:0;vertical-align:middle;}
 		header #header-bar div[id*=left] .dropdown:nth-child(1){width:115px;}
 			header #header-bar div[id*=left] .dropdown:nth-child(1):focus, header #header-bar div[id*=left] .dropdown:nth-child(1):hover, header #header-bar div[id*=left] .dropdown:nth-child(1):focus, header #header-bar div[id*=left] .dropdown.open:nth-child(1){background-position:-170px -71px;}
 		header #header-bar div[id*=left] .dropdown:nth-child(2){width:75px;background-position-y:-93px;}
@@ -277,7 +277,7 @@ body{background:#fff;height:initial;font:13px "나눔고딕","NanumGothic","Nanu
 				footer a[href*="mobile"]{background-position:-480px -265px;}
 				footer a[href*="support"]{background-position:-700px -265px;}
 				footer a[href*="adcontact"]{background-position:-420px -265px;}
-				footer a[href*="ejnkr/apply"]{background-position:-535px -265px;}
+				footer a[href*="ejn.kr"]{background-position:-535px -265px;}
 				footer a[href*="privacy"]{background-position:-591px -265px;}
 				footer a[href*="policy"]{background-position:-647px -265px;}
 				footer a:hover, footer a:focus{opacity:1;}
